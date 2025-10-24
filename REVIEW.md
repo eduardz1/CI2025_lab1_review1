@@ -1,0 +1,3 @@
+# Review
+
+Style-wise, I think it's best to only have a single Jupyter notebook to avoid repetitions. The search space in the 3rd problem is indeed rather large, so you need some kind of mutation strategy to escape local optima. Also you're "evaluating" the solution (meaning also verifying its validity) only after an iteration of the `tweak` function, maybe it could be more efficient to check the validity directly while tweaking the solution, but overall I think it's a good approach.
